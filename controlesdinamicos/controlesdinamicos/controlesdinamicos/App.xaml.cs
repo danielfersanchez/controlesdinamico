@@ -13,7 +13,7 @@ namespace controlesdinamicos
 		{
 			InitializeComponent();
 
-			MainPage = new controlesdinamicos.MainPage();
+			MainPage = new controlesdinamicos.formulario();
 		}
 
 		protected override void OnStart ()

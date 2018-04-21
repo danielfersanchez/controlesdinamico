@@ -12,14 +12,14 @@ namespace controlesdinamicos
 		public MainPage()
 		{
 			InitializeComponent();
-            boton.Clicked += Boton_Clicked;// creacion del evento del boton
+            //boton.Clicked += Boton_Clicked;// creacion del evento del boton
 		}
 
-        private void Boton_Clicked(object sender, EventArgs e)
-        {
-            panel.Children.Add(new Button() {
-                Text = $"boton{panel.Children.Count+1}"//formateada
-            });
-        }
+        //private void Boton_Clicked(object sender, EventArgs e)
+        //{
+        //    panel.Children.Add(new Button() {
+        //        Text = $"boton{panel.Children.Count+1}"//formateada
+        //    });
+        //}
     }
 }
