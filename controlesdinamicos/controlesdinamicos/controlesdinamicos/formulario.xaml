@@ -4,7 +4,21 @@
              x:Class="controlesdinamicos.formulario">
     <ContentPage.Content>
         <StackLayout>
-            <BoxView ></BoxView>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="titulo"></Label>
+            <Entry x:Name="EntryTitulo" Placeholder="ingrese titulo" HorizontalOptions="Center" ></Entry>
+        </StackLayout>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Autor"></Label>
+            <Entry x:Name="EntryAutor" Placeholder="ingrese Autor" HorizontalOptions="Center" ></Entry>
+        </StackLayout>
+        <StackLayout VerticalOptions="Center">
+            <Label Text="Area"></Label>
+            <Entry x:Name="EntryArea" Placeholder="ingrese Area" HorizontalOptions="Center" ></Entry>
+        </StackLayout>
+        <StackLayout>
+            <Button Text="Enviar"></Button>
+        </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
